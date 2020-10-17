@@ -1,0 +1,262 @@
+body{
+  background-margin:100;
+}
+.about{
+  float:left;
+  font-size:15px;
+  width:33.3%;
+  font-family: 'Titillium Web', sans-serif;
+}
+.about1{
+  float:left;
+  font-size:15px;
+  width:25%;
+  font-family: 'Titillium Web', sans-serif;
+}
+.about2{
+  float:left;
+  font-size:15px;
+  width:50%;
+  font-family: 'Titillium Web', sans-serif;
+}
+.app{
+  font-size:15px;
+  width:50%;
+  font-family: 'Titillium Web', sans-serif;
+}
+.button3{
+  position:relative;
+  color:black;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  font-style:Bold;
+  font-size:12px;
+  font-weight:900;
+  width:140px;
+  padding:5px 20px 5px;
+  border-radius:10px;
+  border:2px solid #000000;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.button3:hover{
+  color: red;
+  border: 2px solid red;
+}
+.button3:focus{
+  outline:0;
+  color:red;
+  border-color:red;
+}
+
+.button4{
+  position:relative;
+  left:35%;
+  color:black;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  font-style:Bold;
+  font-size:12px;
+  font-weight:900;
+  width:150px;
+  padding:5px 20px 5px;
+  border-radius:10px;
+  border:2px solid #000000;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.button4:hover{
+  color: red;
+  border: 2px solid red;
+}
+.button4:focus{
+  outline:0;
+  color:red;
+  border-color:red;
+}
+.button5{
+  position:relative;
+  left:70%;
+  color:black;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  font-style:Bold;
+  font-size:12px;
+  font-weight:900;
+  width:150px;
+  padding:5px 20px 5px;
+  border-radius:10px;
+  border:2px solid #000000;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.button5:hover{
+  color: red;
+  border: 2px solid red;
+}
+.button5:focus{
+  outline:0;
+  color:red;
+  border-color:red;
+}
+.button6{
+  position:relative;
+  color:black;
+  left:10%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  font-style:Bold;
+  font-size:11px;
+  font-weight:900;
+  width:100px;
+  padding:5px 20px 5px;
+  border-radius:10px;
+  border:2px solid #111111;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.button6:hover{
+  color: red;
+  border: 2px solid red;
+}
+.button6:focus{
+  outline:0;
+  color:red;
+  border-color:red;
+}
+.button7{
+  position:relative;
+  left:25%;
+  color:black;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  font-style:Bold;
+  font-size:11px;
+  font-weight:900;
+  width:100px;
+  padding:5px 20px 5px;
+  border-radius:10px;
+  border:2px solid #111111;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.button7:hover{
+  color: red;
+  border: 2px solid red;
+}
+.button7:focus{
+  outline:0;
+  color:red;
+  border-color:red;
+}
+.button8{
+  position:relative;
+  left:50%;
+  color:black;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  font-style:Bold;
+  font-size:11px;
+  font-weight:900;
+  width:100px;
+  padding:5px 20px 5px;
+  border-radius:10px;
+  border:2px solid #111111;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.button8:hover{
+  color: red;
+  border: 2px solid red;
+}
+.button8:focus{
+  outline:0;
+  color:red;
+  border-color:red;
+}
+.button9{
+  position:relative;
+  left:50%;
+  color:black;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  font-style:Bold;
+  font-size:11px;
+  font-weight:900;
+  width:100px;
+  padding:5px 20px 5px;
+  border-radius:10px;
+  border:2px solid #111111;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.button9:hover{
+  color: red;
+  border: 2px solid red;
+}
+.button9:focus{
+  outline:0;
+  color:red;
+  border-color:red;
+}
+.button10{
+  position:relative;
+  left:175%;
+  color:black;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  font-style:Bold;
+  font-size:11px;
+  font-weight:900;
+  width:100px;
+  padding:5px 20px 5px;
+  border-radius:10px;
+  border:2px solid #111111;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.button10:hover{
+  color: red;
+  border: 2px solid red;
+}
+.button10:focus{
+  outline:0;
+  color:red;
+  border-color:red;
+}
+.input1{
+  position:relative;
+  bottom:10px;
+}
+.input2{
+  position:relative;
+  left:10%;
+  bottom:10px;
+}
+.input3{
+  position:relative;
+  left:30%;
+  bottom:10px;
+}
+.input4{
+  position:relative;
+  left:30%;
+  bottom:10px;
+}
+.input5{
+  position:relative;
+  left:110%;
+  bottom:30px;
+}
+.jumbo1{
+  margin-top:15%;
+  height:600px;
+}

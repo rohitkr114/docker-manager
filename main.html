@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="scripts/index.css">
+    <script src="scripts/__index.js"></script>
+		<title>Docker Manager</title>
+	</head>
+	<body>
+		<div class="container">
+      <div class="conatiner">
+        <div class="about2">
+          <h3 class="text-capitalize font-weight-bold mb-1">Docker Manager</h3>
+        </div>
+        <div class="about2">
+          <button type="button" name="web_tty" id="button10" class="button3 mt-3 bg-transparent mb-1" onclick="web_tty()">Web tty</button>
+        </div>
+      </div>
+      <div class="jumbotron mt-5 bg-grey">
+        <div class="about">
+          <button type="button" name="list_running_containers" id="button1" class="button3 bg-transparent mt-4 ml-5" onclick="list_running_containers()">List Running Containers</button>
+        </div>
+        <div class="about">
+          <button type="button" name="list_images" id="button2" class="button4 bg-transparent mt-4 ml-5" onclick="list_available_images()">List Available Images</button>
+        </div>
+        <div class="about">
+          <button type="button" name="list_all_containers" id="button3" class="button5 bg-transparent mt-4 ml-5" onclick="list_all_containers()">List All Containers</button>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="about1">
+          <input id="input1" type="text" class="input1" placeholder="ID or name of container">
+        </div>
+        <div class="about1">
+          <input id="input2" type="text" class="input2" placeholder="ID or name of container">
+        </div>
+        <div class="about1">
+          <input id="input3" type="text" class="input3" placeholder="ID or name of container">
+        </div>
+        <div class="about1">
+          <input id="input4" type="text" class="input4" placeholder="ID or name of container">
+        </div>
+        <div class="about1">
+          <button type="button" name="stop_container" id="button4" class="button6 bg-transparent mt-4 ml-5" onclick="stop_container()">Stop Container</button>
+        </div>
+        <div class="about1">
+          <button type="button" name="start_container" id="button5" class="button7 bg-transparent mt-4 ml-5" onclick="start_container()">Start Container</button>
+        </div>
+        <div class="about1">
+          <button type="button" name="restart_container" id="button6" class="button8 bg-transparent mt-4 ml-5" onclick="restart_container()">Restart Container</button>
+        </div>
+        <div class="about1">
+          <button type="button" name="container_logs" id="button7" class="button9 bg-transparent mt-4 ml-5" onclick="container_logs()">Container Logs</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="jumbotron bg-dark jumbo1" id="ans">
+
+        </div>
+      </div>
+    </div>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+	</body>
+</html>
